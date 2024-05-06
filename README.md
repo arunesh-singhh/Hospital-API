@@ -1,3 +1,5 @@
+## Hosted Link - https://hospital-api-2g58.onrender.com
+
 ## Installation
 
 To run this application on your local machine, please follow these steps:
