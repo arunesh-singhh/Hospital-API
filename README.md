@@ -12,6 +12,13 @@ https://github.com/arunesh-singhh/Hospital-API
 npm install
 ```
 
+* Setup Mongodb Databade URL:
+
+inside .env file copy and paste your mongodb database URL
+   ```bash
+    MONGODB_URL = mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.c6j8ygu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+   ```
+
 * Start the application using the following command: 
 ```
 npm start
