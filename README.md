@@ -4,7 +4,7 @@ To run this application on your local machine, please follow these steps:
 
 * Clone this repository:
 ```
-https://github.com/rajeevkrS/Hospital-API
+https://github.com/arunesh-singhh/Hospital-API
 ```
 
 * Install the required dependencies using the following command:
@@ -19,7 +19,7 @@ npm start
 
 * Open the application in your postman app by visiting the following URL: 
 ```
-http://localhost:8000
+http://localhost:3000
 ```
 
 ### Features:
@@ -49,9 +49,9 @@ Positive-Admit]
 
 Routes:
 
-* /doctors/register → with username and password
-* /doctors/login → returns the JWT to be used
-* /patients/register
-* /patients/:id/create_report
-* /patients/:id/all_reports → List all the reports of a patient oldest to latest
-* /reports/:status → List all the reports of all the patients filtered by a specific status
+* /api/doctors/register → with username and password
+* /api/doctors/login → returns the JWT to be used
+* /api/patients/register
+* /api/patients/:id/create_report
+* /api/patients/:id/all_reports → List all the reports of a patient oldest to latest
+* /api/reports/:status → List all the reports of all the patients filtered by a specific status
